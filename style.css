@@ -1,0 +1,178 @@
+#name{font-size:9vw;
+  text-align: center;
+color: #e4e7e7;
+}
+#subtit{font-size:3.5vw;
+text-align: center;
+color: #e4e7e7;
+}
+
+body {
+  font-family: 'Roboto Condensed', serif;
+
+
+margin: 0;
+}
+
+.nav {
+  position: fixed
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: # #9999ff;
+  padding-top: 8px;
+  padding-bottom: 16px;
+}
+
+.nav a {
+  color: #0CC697;
+  text-decoration: none;
+}
+
+.nav a:after {
+position: fixed;
+  content: "";
+  width: 100%;
+bottom: 0;
+left: 0;
+  height: 1px;
+  border-bottom: 1px solid black;
+}
+
+
+div {
+  margin: 0;
+}
+
+#home {
+  background-image: url("wowwow.jpg");
+  background-size: cover;
+  background-position: center;
+z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#home h1 {
+  font-size: 7em;
+}
+
+#about {
+  background-color: #e6e6ff;
+  z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.portfolio{
+  display: inline-block;
+  width: 500px;
+height: 350px;
+background-size: cover;
+background-position: center;
+}
+
+
+.portfolio-filter{
+  position: fixed
+  top: 0;
+  left: 0;
+  width: 20%;
+  display: inline-block;
+  justify-content: space-around;
+  background-color: #e6e6ff;
+  padding-top: 8px;
+  padding-bottom: 16px;
+}
+
+.portfolio-container{
+  display: inline-block;
+    width: 80%;
+    float: right;
+}
+
+.bio {
+  padding-top: 80px;
+}
+
+.bio h3 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.bio p {
+  font-size: 1.5em;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.page {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+a {
+  font-size: 2em;
+}
+
+#prof {
+  background-image: url("PROF1.JPG");
+width: 500px;
+height: 450px;
+background-size: cover;
+background-position: center;
+}
+
+#image-1 {
+  background-image: url("NEON1.jpg");
+}
+#image-2 {
+  background-image: url("minordetails.jpg");
+}
+#image-3 {
+  background-image: url("dynamic.jpg");
+}
+#image-4 {
+  background-image: url("mushy1.444.jpg");
+}
+#image-5 {
+  background-image: url("willnshan.jpg");
+}
+#image-6 {
+  background-image: url("disco1.JPG");
+}
+#image-7 {
+  background-image: url("manu2.jpg");
+}
+#image-8 {
+  background-image: url("vision1.jpg");
+}
+#image-9 {
+  background-image: url("vision7.jpg");
+}
+#image-10 {
+  background-image: url("dontknowwhatimdoing.jpg");
+}
+#image-11 {
+  background-image: url("purponCHECK.jpg");
+}
+#image-12 {
+  background-image: url("colorblockRECTA.jpg");
+}
+#image-13 {
+  background-image: url("vision2.jpg");
+}
+#image-14 {
+  background-image: url("vision3.jpg");
+}
+#image-15 {
+  background-image: url("vision4.jpg");
+}
+#image-16 {
+  background-image: url("vision6.jpg");
+}
+  background-position: bottom;
